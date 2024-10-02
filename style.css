@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+  text-align: center;
+  margin: 20px 0;
+
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
+  
+}
+
+img{
+  margin-bottom: 100px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.darkmodeSwitch {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.darkgrey {
+  background-color: #333;
+  color: #fff;
+}
+
+
+

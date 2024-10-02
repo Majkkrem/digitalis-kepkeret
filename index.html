@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digitális Képkeret készító</title>
+</head>
+
+<body class="dark-mode">
+  <h1 class="title">Képkeret Készítő</h1>
+  <div class="mb-3 container">
+    <label for="kep-url" class="form-label">Add meg a szerkeszteni kívánt kép URL-jét, szélességét, majd a keret
+      vastagségét, és színét</label>
+    <div class="input-group">
+      <span class="input-group-text" id="szoveg">Ide írd az URL-t</span>
+      <input type="text" class="form-control" id="kep-url" >
+    </div>
+  </div>
+  <div class="mb-3 container"></div>
+
+  <div class="mb-3 container md">
+    <div class="input-group ">
+      <span class="input-group-text" id="szoveg">A kép szélessége (px): </span>
+      <input type="text" class="form-control" id="szelesseg" >
+    </div>
+  </div>
+  <div class="mb-3 container md">
+    <div class="input-group ">
+      <span class="input-group-text" id="szoveg">A keret vastagsága (px): </span>
+      <input type="text" class="form-control" id="keret-vastagsag" >
+    </div>
+  </div>
+  <div class="mb-3 container md">
+    <div class="input-group ">
+      <span class="input-group-text" id="szoveg">A keret színe: </span>
+      <input type="color" class="form-control form-control-color" id="keret-szin">
+    </div>
+  </div>
+
+  <div class="container mb-3 md text-center" >
+    <img src="" id="kep">
+  </div>
+
+  <footer>Sendula Márk 14/S
+    <div class="form-check form-switch">
+      <label class="form-check-label" for="darkmodeSwitch">Dark Mode</label>
+      <input class="form-check-input" type="checkbox" role="switch" id="darkmodeSwitch">
+    </div>
+
+    
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
